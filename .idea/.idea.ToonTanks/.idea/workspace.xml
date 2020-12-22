@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71fdb5e8-ef6d-4e2d-a2ea-6c4b0c530677" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Source/ToonTanks.Target.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnBase.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnBase.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/ToonTanks/ToonTanks.Build.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/ToonTanks/ToonTanks.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/ToonTanks/ToonTanks.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/ToonTanksEditor.Target.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToonTanks.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/ToonTanks.uproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnBase.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +14,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnBase.cpp" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="1lzoKo9FwveRmMrJ4bHm98LSTR0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -207,7 +205,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608609324709</updated>
-      <workItem from="1608609363759" duration="1394000" />
+      <workItem from="1608609363759" duration="1492000" />
     </task>
     <servers />
   </component>
