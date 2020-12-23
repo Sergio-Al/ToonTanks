@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71fdb5e8-ef6d-4e2d-a2ea-6c4b0c530677" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ToonTanks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToonTanks/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnBase.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnBase.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +19,7 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
+      <option value="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnBase.h" />
       <option value="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnBase.cpp" />
     </changedPaths>
   </component>
@@ -205,15 +208,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608609324709</updated>
-      <workItem from="1608609363759" duration="1492000" />
+      <workItem from="1608609363759" duration="2307000" />
+      <workItem from="1608686482988" duration="3506000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

@@ -2,28 +2,40 @@
 
 #pragma once
 
+// Include allows detailed information for the classes
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
 #include "PawnBase.generated.h"
+
+// Class declarations are used commonly in header files for referencing
+class UCapsuleComponent;
 
 UCLASS()
 class TOONTANKS_API APawnBase : public APawn
 {
 	GENERATED_BODY()
 
+private:
+	UPROPERTY()
+	UCapsuleComponent* CapsuleComp;
+	UPROPERTY()
+	UStaticMeshComponent* BaseMesh;
+	UPROPERTY()
+	UStaticMeshComponent* TurretMesh;
+	UPROPERTY()
+	USceneComponent* ParticleSpawnPoint;
 public:
 	// Sets default values for this pawn's properties
 	APawnBase();
 
-protected:
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
-
-public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+protected:
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
+	
 };
