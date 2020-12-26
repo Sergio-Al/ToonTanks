@@ -49008,6 +49008,8 @@
             <e p="PawnBase.h" t="Include" />
             <e p="PawnTank.cpp" t="Include" />
             <e p="PawnTank.h" t="Include" />
+            <e p="PawnTurret.cpp" t="Include" />
+            <e p="PawnTurret.h" t="Include" />
           </e>
           <e p="ToonTanks.Build.cs" t="Include" />
           <e p="ToonTanks.cpp" t="Include" />

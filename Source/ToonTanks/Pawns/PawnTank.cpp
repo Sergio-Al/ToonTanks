@@ -9,6 +9,11 @@ APawnTank::APawnTank()
 {
 	SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("Spring Arm"));
 	SpringArm->SetupAttachment(RootComponent);
+	SpringArm->TargetArmLength = 600.f;
+	SpringArm->SetRelativeRotation(FRotator(-60.f, 0.f, 0.f));
+	SpringArm->bEnableCameraLag = true;
+	SpringArm->bEnableCameraRotationLag = true;
+	SpringArm->CameraLagSpeed = 10.f;
 
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	Camera->SetupAttachment(SpringArm);
@@ -57,7 +62,7 @@ void APawnTank::CalculateRotateInput(float Value)
 
 void APawnTank::Move()
 {
-	// bSweep, the second value manage the collision while we are offseting
+	// bSweep, the second value manage the collision while we are offsetting
 	AddActorLocalOffset(MoveDirection, true);
 }
 
