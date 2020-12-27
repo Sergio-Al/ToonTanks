@@ -5,12 +5,7 @@
     <projectFile>Intermediate/ProjectFiles/UE4.vcxproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71fdb5e8-ef6d-4e2d-a2ea-6c4b0c530677" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ToonTanks/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToonTanks/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ToonTanks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToonTanks/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnTurret.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnTurret.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnTurret.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnTurret.h" afterDir="false" />
-    </list>
+    <list default="true" id="71fdb5e8-ef6d-4e2d-a2ea-6c4b0c530677" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -389,7 +384,7 @@
       <workItem from="1609030288468" duration="587000" />
       <workItem from="1609031986929" duration="200000" />
       <workItem from="1609036468639" duration="678000" />
-      <workItem from="1609037482237" duration="2547000" />
+      <workItem from="1609037482237" duration="2845000" />
     </task>
     <servers />
   </component>
