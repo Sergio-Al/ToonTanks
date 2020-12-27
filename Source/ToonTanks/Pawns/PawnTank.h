@@ -30,6 +30,12 @@ private:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Movement", meta=(AllowPrivateAccess = "true"))
 	float RotateSpeed = 100.f;
 
+	/**
+	 * @brief
+	 * This will give us the player controller to add functionality
+	 */
+	APlayerController* PlayerControllerRef;
+
 	void CalculateMoveInput(float Value);
 	void CalculateRotateInput(float Value);
 
@@ -48,5 +54,10 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
-	
+
+	/**
+	* @brief
+	* Call BasePawn HandleDestruction to play effects
+	*/
+	virtual void HandleDestruction() override;
 };

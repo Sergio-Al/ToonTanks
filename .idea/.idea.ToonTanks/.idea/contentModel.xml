@@ -49003,6 +49003,10 @@
       <e p="README.md" t="Include" />
       <e p="Source" t="Include">
         <e p="ToonTanks" t="Include">
+          <e p="Actors" t="Include">
+            <e p="ProjectileBase.cpp" t="Include" />
+            <e p="ProjectileBase.h" t="Include" />
+          </e>
           <e p="Pawns" t="Include">
             <e p="PawnBase.cpp" t="Include" />
             <e p="PawnBase.h" t="Include" />

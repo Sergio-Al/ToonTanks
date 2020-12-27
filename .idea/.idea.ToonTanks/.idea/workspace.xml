@@ -5,7 +5,18 @@
     <projectFile>Intermediate/ProjectFiles/UE4.vcxproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71fdb5e8-ef6d-4e2d-a2ea-6c4b0c530677" name="Default Changelist" comment="" />
+    <list default="true" id="71fdb5e8-ef6d-4e2d-a2ea-6c4b0c530677" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Source/ToonTanks/Actors/ProjectileBase.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/ToonTanks/Actors/ProjectileBase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ToonTanks/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToonTanks/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ToonTanks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToonTanks/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnBase.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnBase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnTank.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnTank.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnTank.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnTank.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnTurret.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnTurret.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnTurret.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnTurret.h" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,23 +26,30 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Epic Games/UE_4.26/Engine/Source/Runtime/Engine/Classes/Engine/EngineTypes.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Epic Games/UE_4.26/Engine/Source/Runtime/Engine/Classes/GameFramework/Actor.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnTank.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Epic Games/UE_4.26/Engine/Source/Runtime/Engine/Public/TimerManager.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Epic Games/UE_4.26/Engine/Source/Runtime/Engine/Classes/Engine/NetSerialization.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnTurret.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnTurret.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnTank.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Epic Games/UE_4.26/Engine/Source/Runtime/Engine/Classes/GameFramework/Actor.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Epic Games/UE_4.26/Engine/Source/Runtime/Engine/Classes/GameFramework/PlayerController.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Epic Games/UE_4.26/Engine/Source/Runtime/Engine/Classes/GameFramework/ProjectileMovementComponent.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Epic Games/UE_4.26/Engine/Source/Runtime/Engine/Classes/Engine/EngineBaseTypes.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnBase.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnBase.h" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnBase.h" />
       <option value="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnBase.cpp" />
-      <option value="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnTank.h" />
-      <option value="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnTank.cpp" />
+      <option value="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnBase.h" />
       <option value="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnTurret.h" />
       <option value="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnTurret.cpp" />
+      <option value="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnTank.h" />
+      <option value="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnTank.cpp" />
+      <option value="$PROJECT_DIR$/Source/ToonTanks/Actors/ProjectileBase.cpp" />
+      <option value="$PROJECT_DIR$/Source/ToonTanks/Actors/ProjectileBase.h" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1lzoKo9FwveRmMrJ4bHm98LSTR0" />
@@ -41,6 +59,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -50,6 +70,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -385,6 +406,7 @@
       <workItem from="1609031986929" duration="200000" />
       <workItem from="1609036468639" duration="678000" />
       <workItem from="1609037482237" duration="2845000" />
+      <workItem from="1609078595071" duration="16752000" />
     </task>
     <servers />
   </component>
@@ -396,6 +418,17 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />

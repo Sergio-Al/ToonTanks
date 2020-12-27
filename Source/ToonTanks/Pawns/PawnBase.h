@@ -9,7 +9,6 @@
 
 // Class declarations are used commonly in header files for referencing
 class UCapsuleComponent;
-
 UCLASS()
 class TOONTANKS_API APawnBase : public APawn
 {
@@ -28,5 +27,32 @@ public:
 	// Sets default values for this pawn's properties
 	APawnBase();
 
+protected:
+
+	/**
+	 * @brief
+	 * This function rotate the turret to face towards the LookAtTarget	when we specified a FVector 
+	 * It is not virtual because we don't need to overwrite in child classes
+	 * @param LookAtTarget This is required for general purposes passed in from Child classes
+	 */
+	void RotateTurret(FVector LookAtTarget);
+
+	/**
+	 * @brief
+	 * This function fires a projectile class at Location facing towards Rotation
+	 * Get Projectile Spawn point location and Rotation
+	 * It is not virtual because we don't need to overwrite in child classes
+	 */
+	void Fire();
+
+	/**
+	 * @brief
+	 * This function will manage the Destruction. 
+	 * Plays Death Effects, sound and camera shake.
+	 * In Turret, informs GameMode Turret died then Destroy() self.
+	 * In Tank, inform GameMode Player Died	then hide all components and disable movement input.
+	 * It is a virtual because the destruction will be different in child classes.
+	 */
+	virtual void HandleDestruction();
 
 };
