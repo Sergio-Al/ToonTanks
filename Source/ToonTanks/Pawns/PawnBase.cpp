@@ -20,8 +20,8 @@ APawnBase::APawnBase()
 	TurretMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Turret Mesh"));
 	TurretMesh->SetupAttachment(BaseMesh);
 
-	ParticleSpawnPoint = CreateDefaultSubobject<USceneComponent>(TEXT("Particle Spawn Point"));
-	ParticleSpawnPoint->SetupAttachment(TurretMesh);
+	ProjectileSpawnPoint = CreateDefaultSubobject<USceneComponent>(TEXT("Particle Spawn Point"));
+	ProjectileSpawnPoint->SetupAttachment(TurretMesh);
 }
 
 void APawnBase::RotateTurret(FVector LookAtTarget)
@@ -40,8 +40,8 @@ void APawnBase::Fire()
 	// Get Projectile Location && Rotation -> Spawn projectile class at Location firing towards Rotation
 	if(ProjectileClass)
 	{
-		FVector SpawnLocation = ParticleSpawnPoint->GetComponentLocation();
-		FRotator SpawnRotation = ParticleSpawnPoint->GetComponentRotation();
+		FVector SpawnLocation = ProjectileSpawnPoint->GetComponentLocation();
+		FRotator SpawnRotation = ProjectileSpawnPoint->GetComponentRotation();
 		
 		AProjectileBase* TempProjectile = GetWorld()->SpawnActor<AProjectileBase>(ProjectileClass, SpawnLocation, SpawnRotation);
 		TempProjectile->SetOwner(this);

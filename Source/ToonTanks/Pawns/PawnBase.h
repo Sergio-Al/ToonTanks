@@ -24,7 +24,7 @@ private:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Components", meta=(AllowPrivateAccess = "true"))
 	UStaticMeshComponent* TurretMesh;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Components", meta=(AllowPrivateAccess = "true"))
-	USceneComponent* ParticleSpawnPoint;
+	USceneComponent* ProjectileSpawnPoint;
 	// VARIABLES
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Projectile Type", meta=(AllowPrivateAccess = "true"))
 	TSubclassOf<AProjectileBase> ProjectileClass;
