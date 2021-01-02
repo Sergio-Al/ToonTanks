@@ -49007,6 +49007,10 @@
             <e p="ProjectileBase.cpp" t="Include" />
             <e p="ProjectileBase.h" t="Include" />
           </e>
+          <e p="GameModes" t="Include">
+            <e p="TankGameModeBase.cpp" t="Include" />
+            <e p="TankGameModeBase.h" t="Include" />
+          </e>
           <e p="Pawns" t="Include">
             <e p="PawnBase.cpp" t="Include" />
             <e p="PawnBase.h" t="Include" />
