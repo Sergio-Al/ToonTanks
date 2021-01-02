@@ -5,7 +5,11 @@
     <projectFile>Intermediate/ProjectFiles/UE4.vcxproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71fdb5e8-ef6d-4e2d-a2ea-6c4b0c530677" name="Default Changelist" comment="Subiendo cambios al codigo fuente  desde rider" />
+    <list default="true" id="71fdb5e8-ef6d-4e2d-a2ea-6c4b0c530677" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ToonTanks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToonTanks/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnBase.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnBase.h" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +21,8 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Epic Games/UE_4.26/Engine/Source/Runtime/Engine/Classes/Engine/EngineTypes.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Epic Games/UE_4.26/Engine/Source/Runtime/Engine/Classes/GameFramework/Actor.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Epic Games/UE_4.26/Engine/Source/Runtime/Engine/Classes/Components/SceneComponent.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Epic Games/UE_4.26/Engine/Source/Runtime/Engine/Classes/Engine/World.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnTank.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Epic Games/UE_4.26/Engine/Source/Runtime/Engine/Public/TimerManager.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Epic Games/UE_4.26/Engine/Source/Runtime/Engine/Classes/Engine/NetSerialization.h" root0="FORCE_HIGHLIGHTING" />
@@ -31,14 +37,14 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnBase.cpp" />
-      <option value="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnBase.h" />
       <option value="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnTurret.h" />
       <option value="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnTurret.cpp" />
       <option value="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnTank.h" />
       <option value="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnTank.cpp" />
       <option value="$PROJECT_DIR$/Source/ToonTanks/Actors/ProjectileBase.cpp" />
       <option value="$PROJECT_DIR$/Source/ToonTanks/Actors/ProjectileBase.h" />
+      <option value="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnBase.h" />
+      <option value="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnBase.cpp" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1lzoKo9FwveRmMrJ4bHm98LSTR0" />
@@ -395,7 +401,12 @@
       <workItem from="1609031986929" duration="200000" />
       <workItem from="1609036468639" duration="678000" />
       <workItem from="1609037482237" duration="2845000" />
-      <workItem from="1609078595071" duration="17071000" />
+      <workItem from="1609078595071" duration="18331000" />
+      <workItem from="1609114082811" duration="1155000" />
+      <workItem from="1609123148363" duration="3696000" />
+      <workItem from="1609296738897" duration="1471000" />
+      <workItem from="1609544609266" duration="41000" />
+      <workItem from="1609547207751" duration="5290000" />
     </task>
     <task id="LOCAL-00001" summary="Subiendo cambios al codigo fuente  desde rider">
       <created>1609102099011</created>
