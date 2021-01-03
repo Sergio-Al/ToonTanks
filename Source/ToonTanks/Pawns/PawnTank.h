@@ -50,14 +50,15 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+	
+	/**
+     * Call BasePawn HandleDestruction to play effects
+     */
+    virtual void HandleDestruction() override;
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	/**
-	* @brief
-	* Call BasePawn HandleDestruction to play effects
-	*/
-	virtual void HandleDestruction() override;
+	
 };

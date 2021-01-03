@@ -32,6 +32,15 @@ public:
 	// Sets default values for this pawn's properties
 	APawnBase();
 
+	/**
+	* @brief
+	* This function will manage the Destruction. 
+	* Plays Death Effects, sound and camera shake.
+	* In Turret, informs GameMode Turret died then Destroy() self.
+	* In Tank, inform GameMode Player Died	then hide all components and disable movement input.
+	* It is a virtual because the destruction will be different in child classes.
+	*/
+	virtual void HandleDestruction();
 protected:
 
 	/**
@@ -49,15 +58,5 @@ protected:
 	 * It is not virtual because we don't need to overwrite in child classes
 	 */
 	void Fire();
-
-	/**
-	 * @brief
-	 * This function will manage the Destruction. 
-	 * Plays Death Effects, sound and camera shake.
-	 * In Turret, informs GameMode Turret died then Destroy() self.
-	 * In Tank, inform GameMode Player Died	then hide all components and disable movement input.
-	 * It is a virtual because the destruction will be different in child classes.
-	 */
-	virtual void HandleDestruction();
 
 };
