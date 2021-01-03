@@ -28,7 +28,7 @@ void ATankGameModeBase::ActorDied(AActor* DeadActor)
 
 		if(--TargetTurrets == 0)
 		{
-			HandleGameOver(true);
+			HandleGameOver(true);	
 		}
 	}
 }

@@ -44,6 +44,9 @@ public:
 
 protected:
 
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category="Game Loop")
+	int32 StartDelay = 3;
+
 	virtual void BeginPlay() override;
 	UFUNCTION(BlueprintImplementableEvent)
 	void GameStart();
