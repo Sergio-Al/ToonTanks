@@ -37,6 +37,9 @@ void UHealthComponent::TakeDamage(AActor* DamagedActor, float Damage, const UDam
 	// FMath is very friendly with float types and no with others.
 	Health = FMath::Clamp(Health - Damage, 0.f, DefaultHealth);
 
+	// Degugging health for develop reasons
+	UE_LOG(LogTemp, Warning, TEXT("Remaining health: %1.f"), Health);
+	
 	if(Health <= 0.f)
 	{
 		if(GameModeRef)

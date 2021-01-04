@@ -49023,6 +49023,10 @@
             <e p="PawnTurret.cpp" t="Include" />
             <e p="PawnTurret.h" t="Include" />
           </e>
+          <e p="PlayerControllers" t="Include">
+            <e p="PlayerControllerBase.cpp" t="Include" />
+            <e p="PlayerControllerBase.h" t="Include" />
+          </e>
           <e p="ToonTanks.Build.cs" t="Include" />
           <e p="ToonTanks.cpp" t="Include" />
           <e p="ToonTanks.h" t="Include" />
