@@ -35,6 +35,7 @@ private:
 	 * This will give us the player controller to add functionality
 	 */
 	APlayerController* PlayerControllerRef;
+	bool bIsPlayerAlive = true;
 
 	void CalculateMoveInput(float Value);
 	void CalculateRotateInput(float Value);
@@ -55,6 +56,8 @@ public:
      * Call BasePawn HandleDestruction to play effects
      */
     virtual void HandleDestruction() override;
+
+	bool GetIsPlayerAlive();
 
 protected:
 	// Called when the game starts or when spawned

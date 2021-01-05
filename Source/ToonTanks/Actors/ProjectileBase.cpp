@@ -5,6 +5,7 @@
 #include "Components/StaticMeshComponent.h"
 #include "GameFramework/ProjectileMovementComponent.h"
 #include "Kismet/GameplayStatics.h"
+#include "Particles/ParticleSystemComponent.h"
 
 // Sets default values
 AProjectileBase::AProjectileBase()
@@ -21,13 +22,17 @@ AProjectileBase::AProjectileBase()
 	ProjectileMovement->MaxSpeed = MovementSpeed;
 	InitialLifeSpan = 3.f;
 
+	ParticleTrail = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("Particle Component"));
+	ParticleTrail->SetupAttachment(RootComponent);
+
 }
 
 // Called when the game starts or when spawned
 void AProjectileBase::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
+	UGameplayStatics::PlaySoundAtLocation(this, LaunchSound, GetActorLocation());
 }
 
 // OnHit function based on OnComponentHit 'Not overriding'
@@ -52,13 +57,12 @@ void AProjectileBase::OnHit(UPrimitiveComponent* HitComponent, AActor* OtherActo
 			MyOwner->GetInstigatorController(),
 			this,
 			DamageType);
+		UGameplayStatics::SpawnEmitterAtLocation(this, HitParticle, GetActorLocation());
+		UGameplayStatics::PlaySoundAtLocation(this, HitSound, GetActorLocation());
+		// Play camera shake
+		GetWorld()->GetFirstPlayerController()->ClientStartCameraShake(HitShake);
+		Destroy();
 	}
-
-	// Play a bunch of effects here during the polish phase -TODO
-		
-	Destroy();
-
-	
 }
 
 

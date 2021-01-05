@@ -13,10 +13,15 @@ class TOONTANKS_API AProjectileBase : public AActor
 	GENERATED_BODY()
 
 private:
+	// COMPONENTS
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Components", meta=(AllowPrivateAccess = "true"))
 	UProjectileMovementComponent* ProjectileMovement;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Components", meta=(AllowPrivateAccess = "true"))
 	UStaticMeshComponent* ProjectileMesh;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Components", meta=(AllowPrivateAccess = "true"))
+	UParticleSystemComponent* ParticleTrail;
+
+	// VARIABLES
 	/**
 	 * @brief
 	 * This is a template field for Damage Type classes.
@@ -27,7 +32,16 @@ private:
 	float MovementSpeed = 1300.f;
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Damage", meta=(AllowPrivateAccess = "true"))
 	float Damage = 50.f;
+	UPROPERTY(EditAnywhere, Category="Effects")
+	UParticleSystem* HitParticle;
+	UPROPERTY(EditAnywhere, Category="Effects")
+	USoundBase* HitSound;
+	UPROPERTY(EditAnywhere, Category="Effects")
+	USoundBase* LaunchSound;
+	UPROPERTY(EditAnywhere, Category="Effects")
+	TSubclassOf<UMatineeCameraShake> HitShake;
 
+	// FUNCTIONS
 	/**
 	 * Override funcion OnHit, we deleted the two first arguments of the real function OnComponentHit
 	 * in PrimitiveComponent
